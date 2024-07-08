@@ -2,6 +2,9 @@ kind: Kustomization
 bases:
   - ../../base
 
+resources:
+  - route-frontend.yaml
+
 nameSuffix: -apac
 images:
   - name: mysql
